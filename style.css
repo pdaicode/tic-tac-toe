@@ -1,0 +1,28 @@
+/* Stylesheet */
+body {
+	margin: auto;
+	text-align: center;
+}
+
+.grid {
+	display: grid;
+	margin: auto;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	grid-gap: 1px;
+	max-width: 500px;
+	width: 80vmin;
+	height: 80vmin;
+	max-height: 500px;
+	background: #000;
+}
+
+div {
+	background: #fff;
+}
+
+.highlight {
+	font-weight: bold;
+	background: #eee;
+}
+
